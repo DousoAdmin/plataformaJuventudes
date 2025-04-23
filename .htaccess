@@ -1,0 +1,2 @@
+RewriteCond %{HTTP_HOST} ^plataformajuventudes.org [NC]
+RewriteRule ^(.*)$ https://www.plataformajuventudes.org/$1 [L,R=301]
